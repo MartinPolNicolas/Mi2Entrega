@@ -19,21 +19,23 @@
     </head>
     <body>
         <header class="Header">
-            <div class="contenedorLogo">
-                <a href=""><img class="logo" src="./assets/img/Logo Surf Pol 1.png" alt="" width="200vh"></a>
+            <div class="HeaderNav">
+                <div class="contenedorLogo">
+                    <a href=""><img class="logo" src="./assets/img/Logo Surf Pol 1.png" alt="" width="200vh"></a>
+                </div>
+                <nav class="navegacion">
+                    <ul>
+                        <li class="listaItem"><a class="linkNav" href="./index.html">Escuela</a></li>
+                        <li class="listaItem"><a class="linkNav" href="./pages/nosotros.html">Nosotros</a></li>
+                        <li class="listaItem"><a class="linkNav" href="./pages/Donde Estamos.html">Donde Estamos</a></li>
+                        <li class="listaItem"><a class="linkNav" href="./pages/AlquileresySS.html">Alquileres y Servicios</a></li>
+                        <li class="listaItem"><a class="linkNav" href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="navegacion">
-                <ul>
-                    <li class="listaItem"><a class="linkNav" href="./index.html">Escuela</a></li>
-                    <li class="listaItem"><a class="linkNav" href="./pages/nosotros.html">Nosotros</a></li>
-                    <li class="listaItem"><a class="linkNav" href="./pages/Donde Estamos.html">Donde Estamos</a></li>
-                    <li class="listaItem"><a class="linkNav" href="./pages/AlquileresySS.html">Alquileres y Servicios</a></li>
-                    <li class="listaItem"><a class="linkNav" href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
         </header>
-        <main >
-            <section>
+     <main >
+        <section>
                     <h1 class="tituloPrincipal"> Escuela de Surf Pol</h1>
                     <div class="imagenPrincipal">
                     <a href=""> <img src="./assets/img/imagen surf principal.jpg" alt="Escuela Surf" width="730px"></a>                    
@@ -42,34 +44,37 @@
         <br>
         <hr>
         <div class="imagenesTodas">
-            <div class="cardsIncripciones">
-                <h2>Inscripciones</h2>
-                <a href=""><img src="./assets/img/inscripciones index.jpg" alt="" height="200px"></a>
-                <p>Pequeña descripcion de la imagen</p>
-                <button>Ver Más</button>
-            </div>
-            <div class="cardsHistoria">
-                <h2>Historia</h2>
-                <a href=""><img src="./assets/img/Historia img.jpg" height="200px" alt="Historia"></a>
-                <p>Pequeña descripcion de la imagen</p>
-                <button>Ver Más</button>
-            </div>
+                <div class="cardsIncripciones">
+                    <h2>Inscripciones</h2>
+                    <a href=""><img src="./assets/img/inscripciones index.jpg" alt="" height="200px"></a>
+                    <p>¡Bienvenidos a nuestra escuela de surf! Estamos emocionados de compartir nuestra pasión por el surf con ustedes. ¿Quieres aprender a surfear y experimentar la emoción de cabalgar las olas? Entonces no esperes más, ¡inscríbete hoy mismo en nuestras clases de surf!</p>
+                    <button>Ver Más</button>
+                </div>
+                <div class="cardsHistoria">
+                    <h2>Historia</h2>
+                    <a href=""><img src="./assets/img/Historia img.jpg" height="200px" alt="Historia"></a>
+                    <p>Nos complace compartir con ustedes la historia detrás de nuestra escuela y cómo nos hemos convertido en uno de los destinos de surf más populares de la zona.</p>
+                    <button>Ver Más</button>
+                </div>
 
-            <div class="cardsEventos">
-                <h2>Eventos</h2>
-                <a href=""><img src="./assets/img/evento ecologia.jpg" height="200px" alt="Eventos"></a>
-                <p>Pequeña descripcion de la imagen</p>
-                <button>Ver Más</button>
+                <div class="cardsEventos">
+                    <h2>Eventos</h2>
+                    <a href=""><img src="./assets/img/evento ecologia.jpg" height="200px" alt="Eventos"></a>
+                    <p>
+                    ¡Prepárate para emocionantes eventos de surf en nuestra escuela! Aquí hay una lista de los próximos eventos que no querrás perderte</p>
+                    <button>Ver Más</button>
+                </div>
+                <div class="cardsComunidad">
+                    <h2>Comunidad</h2>
+                    <a href=""><img src="./assets/img/Comunidad index.jpg" height="200px" alt="Comunidad"></a>
+                    <p>
+                        En nuestra escuela de surf, creemos en la importancia de la comunidad y el apoyo mutuo. Al unirnos como una familia de surfistas, podemos crear un ambiente seguro y acogedor para todos los que comparten nuestra pasión por el surf.</p>
+                    <button>Ver Más</button>
+                </div>
             </div>
-            <div class="cardsComunidad">
-                <h2>Comunidad</h2>
-                <a href=""><img src="./assets/img/Comunidad index.jpg" height="200px" alt="Comunidad"></a>
-                <p>Pequeña descripcion de la imagen</p>
-                <button>Ver Más</button>
-            </div>
-        </div>
         </main>
-       <footer class="classFooter">
+    </body>
+    <footer class="classFooter">
         <p>Todos los derechos reservados - Martin Pol</p>
         <hr>
         <div>
@@ -77,12 +82,10 @@
             <a class="wsp" href="https://www.whatsapp.com/" target="_blank"> <i class=" icon fa-brands fa-whatsapp fa-fade" style="color: #2ac016;"></i> </a>
             <a class="facebook" href="https://www.facebook.com/" target="_blank"> <i class=" icon fa-brands fa-facebook fa-fade" style="color: #327d8f;"></i> </a>
         </div>
-      
-
-       </footer>
+        </footer>
 
        
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
        <!-- CDN del JS de Bootstrap-->
-    </body>
+   
 </html>

@@ -12,6 +12,12 @@
     font-style:italic;
     background-image: linear-gradient(to right top, #0f1120, #1c2341, #2a3566, #3a488c, #4c5cb4, #3d61b8, #2a66bc, #006bbf, #005d97, #004b6f, #003849, #132529);
 }
+.HeaderNav{
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+
+}
 /* estilados logo*/
 .contenedorLogo {
     width: 38%;
@@ -21,13 +27,14 @@
 .logo {
     width: 50%;
 }
-/*estilados anclas de navegacion*/
+/*estilados anclas de navegacion
 .navegacion{
-    display: inline-block;
+    display: flex;
     width: 61%;
     text-align: right;
+    justify-content: space-between;
 }
-   
+*/   
 
     
 .listaItem {
