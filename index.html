@@ -8,7 +8,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- CDN del CSS de Bootstrap -->
         <link rel="stylesheet" href="./css/style.css">
-        <!-- CSS -->
+        <!-- Mi CSS -->
         <script src="https://kit.fontawesome.com/696e17386f.js" crossorigin="anonymous"></script>
         <!-- icono -->
         
@@ -18,7 +18,39 @@
     
     </head>
     <body>
-        <header class="Header">
+        <header class="Header container-fluid">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="./assets/img/Logo Surf Pol 1.png" alt="Logo SurfPol" class="TamanioLogo" >
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav w-100 justify-content:flex-end">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Escuela</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/AlquileresySS.html">Alquileres y Servicios</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/Donde Estamos.html">Donde Estamos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav> 
+            </div>
+            <!-- Codigo sin bts
             <div class="HeaderNav">
                 <div class="contenedorLogo">
                     <a href=""><img class="logo" src="./assets/img/Logo Surf Pol 1.png" alt="" width="200vh"></a>
@@ -32,18 +64,48 @@
                         <li class="listaItem"><a class="linkNav" href="./pages/contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
-            </div>
+            </div> -->
+            <!-- Navegador de BTS-->
         </header>
      <main >
         <section>
                     <h1 class="tituloPrincipal"> Escuela de Surf Pol</h1>
                     <div class="imagenPrincipal">
-                    <a href=""> <img src="./assets/img/imagen surf principal.jpg" alt="Escuela Surf" width="730px"></a>                    
+                    <a href=""> <img src="./assets/img/imagen surf principal.jpg" alt="Escuela Surf" width="800px"></a>                    
                     </div>
         </section>
         <br>
         <hr>
-        <div class="imagenesTodas">
+        <section class="container">
+          <h2>¡Conoce nuestras actividades !</h2>
+          <div class="card-group">
+            <div class="card">
+              <img src="./assets/img/inscripciones index.jpg" class="card-img-top" alt="Inscripciones">
+              <div class="card-body">
+                <h5 class="card-title"> <strong> Inscripciones </strong> </h5>
+                <p class="card-text">¡Bienvenidos a nuestra escuela de surf! Estamos emocionados de compartir nuestra pasión por el surf con ustedes. ¿Quieres aprender a surfear y experimentar la emoción de cabalgar las olas? Entonces no esperes más, ¡inscríbete hoy mismo en nuestras clases de surf!</p>
+                <p class="card-text"><small class="text-body-secondary"> <a href="./pages/contacto.html"> <strong>¡Incribite y surfea con nosotros!</strong> </a> </small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/Historia img.jpg" class="card-img-top" alt="Historia" width="100vh">
+              <div class="card-body">
+                <h5 class="card-title"> <strong>Historia</strong> </h5>
+                <p class="card-text">Nos complace compartir con ustedes la historia detrás de nuestra escuela y cómo nos hemos convertido en uno de los destinos de surf más populares de la zona.</p>
+                <p class="card-text"><small class="text-body-secondary"> <a href="./pages/nosotros.html"><strong>Conoce más de nuestra Historia</strong> </a> </small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+
+        <!--<div class="imagenesTodas">
                 <div class="cardsIncripciones">
                     <h2>Inscripciones</h2>
                     <a href=""><img src="./assets/img/inscripciones index.jpg" alt="" height="200px"></a>
@@ -71,11 +133,17 @@
                         En nuestra escuela de surf, creemos en la importancia de la comunidad y el apoyo mutuo. Al unirnos como una familia de surfistas, podemos crear un ambiente seguro y acogedor para todos los que comparten nuestra pasión por el surf.</p>
                     <button>Ver Más</button>
                 </div>
-            </div>
+            </div>-->
+          </section>
         </main>
-    </body>
+    
     <footer class="classFooter">
         <p>Todos los derechos reservados - Martin Pol</p>
+        <div>
+          <a class="navbar-brand" href="#">
+          <img src="../assets/img/Logo Surf Pol 1.png" alt="Logo SurfPol" class="TamanioLogo" >
+          </a>
+      </div>
         <hr>
         <div>
             <a class="instagram" href="https://www.instagram.com/" target="_blank"> <i class=" icon fa-brands fa-instagram fa-fade" style="color: #0084ff;"></i></a>
@@ -87,5 +155,5 @@
        
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
        <!-- CDN del JS de Bootstrap-->
-   
+    </body>
 </html>

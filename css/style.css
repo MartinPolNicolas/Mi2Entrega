@@ -4,21 +4,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+  font-family:'Ubuntu', sans-serif;
+} 
+
 /* Estilados del header*/
 .Header{
-    height: 30vh;
+    height: 20vh;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     font-style:italic;
     background-image: linear-gradient(to right top, #0f1120, #1c2341, #2a3566, #3a488c, #4c5cb4, #3d61b8, #2a66bc, #006bbf, #005d97, #004b6f, #003849, #132529);
 }
+.TamanioLogo{
+  width: 120px;
+}
+/*.ColorUl{
+  background-color: #007bff;
+  justify-content:flex-end;
+}*/
+/* Clases antes de bst 
 .HeaderNav{
   height: 15%;
   display: flex;
   justify-content: space-between;
 
 }
-/* estilados logo*/
+/* estilados logo
 .contenedorLogo {
     width: 38%;
     display: inline-block;
@@ -34,7 +47,8 @@
     text-align: right;
     justify-content: space-between;
 }
-*/   
+*/
+
 
     
 .listaItem {
@@ -61,7 +75,8 @@ h1 {
     padding: auto;
     text-align: center;
 }
-/* estilos cards*/
+/* estilos cards sin bts
+
 .imagenesTodas{
     display:flex;
     justify-content: center;
@@ -108,7 +123,7 @@ h1 {
     cursor: pointer;
   }
   
-
+*/
 /* Estilados del main*/
 .classMain {
     font-family: 'Ubuntu', sans-serif;
